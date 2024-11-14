@@ -69,12 +69,14 @@ align-items: center;
 .about-section {
     background-color: #fff;
     padding: 100px 0;
+
 }
 
 .about-section .wrapper {
     /* 📍 Свойствa flexbox для отступов между элементами select, .info-wrapper и .skills-wrapper  */
     justify-content: flex-start;
     flex-direction: column;
+    gap: 60px;
 
 
 }
